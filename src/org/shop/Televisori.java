@@ -4,7 +4,7 @@ public class Televisori extends Prodotto {
     private boolean isSmart;
     private int dimensioni;
 
-    public Televisori(String name, String brand, float prezzo, int iva, Boolean isSmart, int dimensioni) {
+    public Televisori(String name, String brand, int prezzo, int iva, Boolean isSmart, int dimensioni) {
         super(name, brand, prezzo, iva);
         this.isSmart = isSmart;
         this.dimensioni = dimensioni;
